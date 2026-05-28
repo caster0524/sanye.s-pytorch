@@ -41,26 +41,12 @@ public/outputs/*
 # Generated datasets (auto-generated training images)
 public/datasets/
 
-# Training artifacts (logs, checkpoints, temp files)
+# Training artifacts
 backend/training/*.txt
 backend/training/*.pth
-backend/training/check_model.py
-backend/training/test_api.py
-backend/training/test_classify.py
-backend/training/test_classify_file.py
-backend/training/test_full.py
-backend/training/test_retry.py
-backend/training/verify_labels.py
-
-# Backend log files
-backend/train_log.txt
-backend/train_log2.txt
-backend/full_train_log.txt
-backend/output.txt
 
 # Temporary files
 *.tmp
 *.temp
 .cache/
 .coze
-.DS_Store
