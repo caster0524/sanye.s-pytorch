@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads and outputs
+public/uploads/*
+public/models/*
+public/outputs/*
+!public/uploads/.gitkeep
+!public/models/.gitkeep
+!public/outputs/.gitkeep
+
+# Generated datasets (auto-generated training images)
+public/datasets/
+
+# Training artifacts (logs, checkpoints, temp files)
+backend/training/*.txt
+backend/training/*.pth
+backend/training/check_model.py
+backend/training/test_api.py
+backend/training/test_classify.py
+backend/training/test_classify_file.py
+backend/training/test_full.py
+backend/training/test_retry.py
+backend/training/verify_labels.py
+
+# Backend log files
+backend/train_log.txt
+backend/train_log2.txt
+backend/full_train_log.txt
+backend/output.txt
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.coze
+.DS_Store

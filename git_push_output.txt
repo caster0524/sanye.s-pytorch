@@ -1,0 +1,11 @@
+=== PULL ===
+STDOUT: 
+STDERR: fatal: not a git repository (or any of the parent directories): .git
+
+RC: 128
+
+=== PUSH ===
+STDOUT: 
+STDERR: fatal: not a git repository (or any of the parent directories): .git
+
+RC: 128
